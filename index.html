@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Mark</title>
+    <link rel="stylesheet" href="css/normailze.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="book-mark mx-auto pt-5 pb-3 mt-4">
+      <h3 class="ps-3 pb-5 fw-bold">Bookmarekr</h3>
+
+      <!-- start form  -->
+      <div class="frm py-5 mx-4 mt-3">
+        <h4 class="text-center fw-bold">Bookmark your favorite sites</h4>
+        <div class="crud w-75 mx-auto mt-4">
+          <div id="frmGroup" class="form-group mb-3">
+            <label for="bookName" class="text-center d-block mb-3 fw-bold"
+              >Site Name</label
+            >
+            <input
+              type="text"
+              placeholder="Book Mark Name"
+              id="bookName"
+              class="form-control py-1"
+            />
+            <p id="empty" class="py-1 text-center rounded-3 mt-2 fw-bold d-none">
+              Name is required
+            </p>
+          </div>
+          <div id="frmGroup" class="form-group mb-3">
+            <label for="" class="text-center d-block mb-3 fw-bold"
+              >Site URL</label
+            >
+            <input
+              type="text"
+              placeholder="Website URL"
+              id="bookUrl"
+              class="form-control py-1"
+            />
+            <p id="empty" class="py-1 text-center rounded-3 mt-2 fw-bold d-none">
+              Url Field is required
+            </p>
+          </div>
+          <div id="frmGroup" class="form-group">
+            <button class="btn btn-primary mx-auto d-block" onclick="addLink()">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- end form  -->
+      <!-- start table  -->
+      <div class="tbl-group mx-4 mb-3" id="tblGroup"></div>
+      <!-- end table  -->
+    </section>
+    <div class="footer mt-4 mx-auto px-2">
+      <p class="fw-bold">© 2023 Mohamed Elbana.</p>
+    </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

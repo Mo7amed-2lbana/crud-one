@@ -1,0 +1,32 @@
+body{
+    height: 3000px;
+}
+.book-mark{
+    width: 80%;
+    border-bottom: 1px solid #999;
+}
+.book-mark h3{
+    color: #aaa;
+    border-bottom: 1px solid #999;
+}
+.book-mark .form-group p{
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+}
+.book-mark .frm{
+    background-color: #eee;
+}
+
+.book-mark .tbl-group .child{
+    background-image:linear-gradient( #eee , #fff ) ;
+
+}
+
+.footer{
+    width: 80%;
+} 
+.footer p{
+    font-size: 14px;
+    color: #999;
+}
